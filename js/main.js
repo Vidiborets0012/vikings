@@ -1,3 +1,3 @@
-Fancybox.bind('[data-fancybox="slogan-btn"]', {
+Fancybox.bind('[data-fancybox="slogan-video"]', {
        
       }); 
