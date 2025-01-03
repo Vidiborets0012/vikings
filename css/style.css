@@ -80,12 +80,17 @@ ol {
   transform: rotate(-180deg);
 }
 
+.menu {
+  padding: 50px 0 58px;
+  background: linear-gradient(180deg, #111213 0%, #111213 43.62%, rgba(32, 31, 33, 0) 86.33%);
+}
+
 .menu-list {
   display: flex;
   justify-content: center;
   gap: 25px;
-  padding: 50px 0 58px;
-  background: linear-gradient(180deg, #111213 0%, #111213 43.62%, rgba(32, 31, 33, 0) 86.33%);
+  /* padding: 50px 0 58px;
+  background: linear-gradient(180deg, #111213 0%, #111213 43.62%, rgba(32, 31, 33, 0) 86.33%); */
   margin-bottom: 178px;
 }
 
@@ -160,6 +165,10 @@ ol {
   left: 0;
   top: -40px;
   background-image: url('../images/slogan-youtube-icon.svg');
+}
+
+.seasons-title {
+  margin-bottom: 171px;
 }
 
 .seasons-inner {
@@ -284,6 +293,10 @@ ol {
   position: relative;
 }
 
+.page-logo {
+  position: absolute;
+}
+
 .season-info {
   position: absolute;
   max-width: 1385px;
@@ -312,4 +325,10 @@ ol {
 
 .season-info-text p {
   margin-bottom: 15px;
+}
+
+.menu-container {
+  max-width: 1385px;
+  margin: 0 auto;
+  position: relative;
 }

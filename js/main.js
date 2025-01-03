@@ -1,6 +1,10 @@
 Fancybox.bind('[data-fancybox="slogan-video"]', {
        
 }); 
+
+Fancybox.bind('[data-fancybox="season"]', {
+       
+}); 
       
 $(function () {
 
