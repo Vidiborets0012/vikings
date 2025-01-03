@@ -30,6 +30,11 @@ ul {
   padding: 0;
 }
 
+ol {
+  margin: 0;
+  padding: 0;
+}
+
 .container {
   max-width: 1220px;
   padding: 0 10px;
@@ -154,4 +159,18 @@ ul {
   left: 0;
   top: -40px;
   background-image: url('../images/slogan-youtube-icon.svg');
+}
+
+.seasons-inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 100px 75px;
+}
+
+.seasons-item {
+  width: 350px;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
