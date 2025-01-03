@@ -263,3 +263,8 @@ ol {
 .heroes-text p {
   margin-bottom: 15px;
 }
+
+.copyright {
+  text-align: center;
+  padding: 14px 0 15px;
+}
