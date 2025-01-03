@@ -268,3 +268,48 @@ ol {
   text-align: center;
   padding: 14px 0 15px;
 }
+
+/* ***** season-1 ***** */
+.menu-list-link-active {
+  color: rgb(133, 204, 220);
+  text-decoration: underline;
+}
+
+.page-header {
+  background-image: url('../images/season1/header-bg.jpg');
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+}
+
+.season-info {
+  position: absolute;
+  max-width: 1385px;
+  display: flex;
+  padding: 44px 47px 64px 35px;
+  background-color: #0e0e0e;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.season-info-num {
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 60px;
+  text-align: center;
+  margin-right: 51px;
+}
+
+.season-info-num span {
+  display: block;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+.season-info-text p {
+  margin-bottom: 15px;
+}
