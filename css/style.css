@@ -165,6 +165,7 @@ ol {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 100px 75px;
+  counter-reset: counter;
 }
 
 .seasons-item {
@@ -173,4 +174,12 @@ ol {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  list-style: none;
+  position: relative;
+}
+
+.seasons-item::before {
+  content: '0' counter(counter);
+  counter-increment: counter;
+  position: absolute;
 }
